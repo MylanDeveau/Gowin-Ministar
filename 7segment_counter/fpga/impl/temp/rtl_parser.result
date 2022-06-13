@@ -1,0 +1,62 @@
+[
+ {
+  "InstFile" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/top.vhd",
+  "InstLine" : 5,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/top.vhd",
+  "ModuleLine" : 5,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/top.vhd",
+    "InstLine" : 37,
+    "InstName" : "clokc_gen",
+    "ModuleFile" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/gowin_osc/gowin_osc.vhd",
+    "ModuleLine" : 12,
+    "ModuleName" : "Gowin_OSC"
+   },
+   {
+    "InstFile" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/top.vhd",
+    "InstLine" : 43,
+    "InstName" : "inter_0",
+    "ModuleFile" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/1tick.vhd",
+    "ModuleLine" : 4,
+    "ModuleName" : "tick"
+   },
+   {
+    "InstFile" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/top.vhd",
+    "InstLine" : 46,
+    "InstName" : "inter_1",
+    "ModuleFile" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/1tick.vhd",
+    "ModuleLine" : 4,
+    "ModuleName" : "tick"
+   },
+   {
+    "InstFile" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/top.vhd",
+    "InstLine" : 49,
+    "InstName" : "inter_2",
+    "ModuleFile" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/1tick.vhd",
+    "ModuleLine" : 4,
+    "ModuleName" : "tick"
+   },
+   {
+    "InstFile" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/top.vhd",
+    "InstLine" : 52,
+    "InstName" : "bridge",
+    "ModuleFile" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/gowin_empu/gowin_empu.vhd",
+    "ModuleLine" : 1525,
+    "ModuleName" : "Gowin_EMPU_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/gowin_empu/gowin_empu.vhd",
+      "InstLine" : 1555,
+      "InstName" : "Gowin_EMPU_inst",
+      "ModuleFile" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/gowin_empu/gowin_empu.vhd",
+      "ModuleLine" : 1,
+      "ModuleName" : "\\~Gowin_EMPU.Gowin_EMPU_Top\\"
+     }
+    ]
+   }
+  ]
+ }
+]
