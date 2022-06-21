@@ -1,0 +1,38 @@
+[
+ {
+  "InstFile" : "C:/Users/Mylan/Documents/TER/exemples/exemple_cortex/fpga/src/top.vhd",
+  "InstLine" : 5,
+  "InstName" : "led_blink",
+  "ModuleFile" : "C:/Users/Mylan/Documents/TER/exemples/exemple_cortex/fpga/src/top.vhd",
+  "ModuleLine" : 5,
+  "ModuleName" : "led_blink",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Mylan/Documents/TER/exemples/exemple_cortex/fpga/src/top.vhd",
+    "InstLine" : 29,
+    "InstName" : "clock_gen",
+    "ModuleFile" : "C:/Users/Mylan/Documents/TER/exemples/exemple_cortex/fpga/src/gowin_osc/gowin_osc.vhd",
+    "ModuleLine" : 12,
+    "ModuleName" : "Gowin_OSC"
+   },
+   {
+    "InstFile" : "C:/Users/Mylan/Documents/TER/exemples/exemple_cortex/fpga/src/top.vhd",
+    "InstLine" : 35,
+    "InstName" : "empu",
+    "ModuleFile" : "C:/Users/Mylan/Documents/TER/exemples/exemple_cortex/fpga/src/gowin_empu/gowin_empu.vhd",
+    "ModuleLine" : 1523,
+    "ModuleName" : "Gowin_EMPU_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Mylan/Documents/TER/exemples/exemple_cortex/fpga/src/gowin_empu/gowin_empu.vhd",
+      "InstLine" : 1547,
+      "InstName" : "Gowin_EMPU_inst",
+      "ModuleFile" : "C:/Users/Mylan/Documents/TER/exemples/exemple_cortex/fpga/src/gowin_empu/gowin_empu.vhd",
+      "ModuleLine" : 1,
+      "ModuleName" : "\\~Gowin_EMPU.Gowin_EMPU_Top\\"
+     }
+    ]
+   }
+  ]
+ }
+]

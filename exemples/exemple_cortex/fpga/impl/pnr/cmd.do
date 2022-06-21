@@ -1,0 +1,10 @@
+-d C:\Users\Mylan\Documents\TER\exemple_fpga\exemple_cortex\impl\gwsynthesis\exemple_cortex.vg
+-p GW1NS-4C-QFN48-7
+-pn GW1NS-LV4CQN48C7/I6
+-cst C:\Users\Mylan\Documents\TER\exemple_fpga\exemple_cortex\src\exemple_cortex.cst
+-cfg C:\Users\Mylan\Documents\TER\exemple_fpga\exemple_cortex\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error

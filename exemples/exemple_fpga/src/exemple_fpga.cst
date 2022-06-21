@@ -1,0 +1,10 @@
+//Copyright (C)2014-2022 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.8.05
+//Part Number: GW1NS-LV4CQN48C7/I6
+//Device: GW1NS-4C
+//Created Time: Thu 06 16 14:48:47 2022
+
+IO_LOC "led" 41;
+IO_PORT "led" PULL_MODE=NONE DRIVE=8;

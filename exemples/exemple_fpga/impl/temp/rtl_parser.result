@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "C:/Users/Mylan/Documents/TER/exemple_fpga/exemple_fpga/src/top.vhd",
+  "InstLine" : 6,
+  "InstName" : "led_blink",
+  "ModuleFile" : "C:/Users/Mylan/Documents/TER/exemple_fpga/exemple_fpga/src/top.vhd",
+  "ModuleLine" : 6,
+  "ModuleName" : "led_blink",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Mylan/Documents/TER/exemple_fpga/exemple_fpga/src/top.vhd",
+    "InstLine" : 24,
+    "InstName" : "clock_gen",
+    "ModuleFile" : "C:/Users/Mylan/Documents/TER/exemple_fpga/exemple_fpga/src/gowin_osc/gowin_osc.vhd",
+    "ModuleLine" : 12,
+    "ModuleName" : "Gowin_OSC"
+   },
+   {
+    "InstFile" : "C:/Users/Mylan/Documents/TER/exemple_fpga/exemple_fpga/src/top.vhd",
+    "InstLine" : 30,
+    "InstName" : "divider",
+    "ModuleFile" : "C:/Users/Mylan/Documents/TER/exemple_fpga/exemple_fpga/src/divider1Hz.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "divider1Hz"
+   }
+  ]
+ }
+]
