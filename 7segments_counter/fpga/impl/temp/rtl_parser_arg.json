@@ -1,0 +1,37 @@
+{
+ "Files" : [
+  {
+   "Library" : "work",
+   "Path" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/1tick.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/gowin_empu/gowin_empu.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/gowin_osc/gowin_osc.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/gowin_pllvr/gowin_pllvr.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/top.vhd",
+   "Type" : "vhdl"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
