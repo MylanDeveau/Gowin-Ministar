@@ -11,7 +11,7 @@
         <Option type="disable_insert_pad" value="1"/>
         <Option type="dsp_balance" value="1"/>
         <Option type="include_path" value="C:/Gowin/Gowin_V1.9.8.05/IDE/ipcore/gowin_empu_gw1ns4/data"/>
-        <Option type="include_path" value="C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/gowin_empu/temp/gw_empu"/>
+        <Option type="include_path" value="C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segments_counter/fpga/src/gowin_empu/temp/gw_empu"/>
         <Option type="output_file" value="gowin_empu.vg"/>
         <Option type="output_template" value="gowin_empu_tmp.vhd"/>
         <Option type="output_vhdl_file" value="gowin_empu.vhg"/>

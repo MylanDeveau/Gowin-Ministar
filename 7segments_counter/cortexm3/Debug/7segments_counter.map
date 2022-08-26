@@ -1,11 +1,5 @@
 Archive member included to satisfy reference by file (symbol)
 
-c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
-                              ./USER/main.o (__aeabi_ui2d)
-c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
-                              ./USER/main.o (__aeabi_ddiv)
-c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
-                              ./USER/main.o (__aeabi_d2iz)
 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-exit.o)
                               c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (exit)
 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
@@ -309,14 +303,8 @@ Discarded input sections
  .bss           0x00000000        0x0 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
  .text.I2C_UnEnable
                 0x00000000       0x1a ./PERIPHERAL/Sources/gw1ns4c_i2c.o
- .text.I2C_Enable
-                0x00000000       0x1e ./PERIPHERAL/Sources/gw1ns4c_i2c.o
- .text.I2C_Rate_Set
-                0x00000000       0x40 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
  .text.Delay_ms_i2c
                 0x00000000       0x34 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
- .text.I2C_Init
-                0x00000000       0x44 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
  .text.I2C_SendByte
                 0x00000000       0xb2 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
  .text.I2C_SendData
@@ -333,12 +321,6 @@ Discarded input sections
                 0x00000000       0x1e ./PERIPHERAL/Sources/gw1ns4c_i2c.o
  .text.I2C_InterruptClose
                 0x00000000       0x1e ./PERIPHERAL/Sources/gw1ns4c_i2c.o
- .debug_info    0x00000000      0x58a ./PERIPHERAL/Sources/gw1ns4c_i2c.o
- .debug_abbrev  0x00000000      0x248 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
- .debug_aranges
-                0x00000000       0x80 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
- .debug_ranges  0x00000000       0x70 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
- .debug_macro   0x00000000      0x100 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
  .debug_macro   0x00000000      0xa78 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
  .debug_macro   0x00000000       0x22 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
  .debug_macro   0x00000000       0x22 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
@@ -357,13 +339,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x64 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
  .debug_macro   0x00000000       0x34 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
  .debug_macro   0x00000000       0x1c ./PERIPHERAL/Sources/gw1ns4c_i2c.o
- .debug_macro   0x00000000       0x52 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
- .debug_line    0x00000000      0x904 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
- .debug_str     0x00000000     0x8947 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
- .comment       0x00000000       0x77 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
- .debug_frame   0x00000000      0x204 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
- .ARM.attributes
-                0x00000000       0x2d ./PERIPHERAL/Sources/gw1ns4c_i2c.o
  .group         0x00000000        0xc ./PERIPHERAL/Sources/gw1ns4c_misc.o
  .group         0x00000000        0xc ./PERIPHERAL/Sources/gw1ns4c_misc.o
  .group         0x00000000        0xc ./PERIPHERAL/Sources/gw1ns4c_misc.o
@@ -388,10 +363,18 @@ Discarded input sections
  .bss           0x00000000        0x0 ./PERIPHERAL/Sources/gw1ns4c_misc.o
  .text.NVIC_PriorityGroupConfig
                 0x00000000       0x24 ./PERIPHERAL/Sources/gw1ns4c_misc.o
+ .text.NVIC_Init
+                0x00000000       0xc4 ./PERIPHERAL/Sources/gw1ns4c_misc.o
  .text.NVIC_SetVectorTable
                 0x00000000       0x2c ./PERIPHERAL/Sources/gw1ns4c_misc.o
  .text.SysTick_CLKSourceConfig
                 0x00000000       0x24 ./PERIPHERAL/Sources/gw1ns4c_misc.o
+ .debug_info    0x00000000      0x51b ./PERIPHERAL/Sources/gw1ns4c_misc.o
+ .debug_abbrev  0x00000000      0x1aa ./PERIPHERAL/Sources/gw1ns4c_misc.o
+ .debug_aranges
+                0x00000000       0x38 ./PERIPHERAL/Sources/gw1ns4c_misc.o
+ .debug_ranges  0x00000000       0x28 ./PERIPHERAL/Sources/gw1ns4c_misc.o
+ .debug_macro   0x00000000      0x106 ./PERIPHERAL/Sources/gw1ns4c_misc.o
  .debug_macro   0x00000000      0xa78 ./PERIPHERAL/Sources/gw1ns4c_misc.o
  .debug_macro   0x00000000       0x22 ./PERIPHERAL/Sources/gw1ns4c_misc.o
  .debug_macro   0x00000000       0x22 ./PERIPHERAL/Sources/gw1ns4c_misc.o
@@ -410,6 +393,13 @@ Discarded input sections
  .debug_macro   0x00000000       0x64 ./PERIPHERAL/Sources/gw1ns4c_misc.o
  .debug_macro   0x00000000       0x58 ./PERIPHERAL/Sources/gw1ns4c_misc.o
  .debug_macro   0x00000000       0x1c ./PERIPHERAL/Sources/gw1ns4c_misc.o
+ .debug_macro   0x00000000       0x2e ./PERIPHERAL/Sources/gw1ns4c_misc.o
+ .debug_line    0x00000000      0x492 ./PERIPHERAL/Sources/gw1ns4c_misc.o
+ .debug_str     0x00000000     0x8a03 ./PERIPHERAL/Sources/gw1ns4c_misc.o
+ .comment       0x00000000       0x77 ./PERIPHERAL/Sources/gw1ns4c_misc.o
+ .debug_frame   0x00000000       0xb0 ./PERIPHERAL/Sources/gw1ns4c_misc.o
+ .ARM.attributes
+                0x00000000       0x2d ./PERIPHERAL/Sources/gw1ns4c_misc.o
  .group         0x00000000        0xc ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .group         0x00000000        0xc ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .group         0x00000000        0xc ./PERIPHERAL/Sources/gw1ns4c_rtc.o
@@ -431,13 +421,23 @@ Discarded input sections
  .text          0x00000000        0x0 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .data          0x00000000        0x0 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .bss           0x00000000        0x0 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .text.Get_Current_Value
+                0x00000000       0x14 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .text.Set_Match_Value
+                0x00000000       0x1c ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .text.Get_Match_Value
                 0x00000000       0x14 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .text.Set_Load_Value
+                0x00000000       0x1c ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .text.Get_Load_Value
                 0x00000000       0x14 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .text.Start_RTC
+                0x00000000       0x18 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .text.Close_RTC
                 0x00000000       0x18 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .text.Get_RTC_Control_value
+                0x00000000       0x18 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .text.RTC_Inter_Mask_Set
                 0x00000000       0x18 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .text.RTC_Inter_Mask_Clr
                 0x00000000       0x18 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
@@ -445,6 +445,14 @@ Discarded input sections
                 0x00000000       0x18 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .text.Clear_RTC_interrupt
                 0x00000000       0x18 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .text.RTC_init
+                0x00000000       0x1c ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .debug_info    0x00000000      0x29a ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .debug_abbrev  0x00000000      0x11c ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .debug_aranges
+                0x00000000       0x80 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .debug_ranges  0x00000000       0x70 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .debug_macro   0x00000000       0xf5 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .debug_macro   0x00000000      0xa78 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .debug_macro   0x00000000       0x22 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .debug_macro   0x00000000       0x8e ./PERIPHERAL/Sources/gw1ns4c_rtc.o
@@ -453,6 +461,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .debug_macro   0x00000000      0x1df ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .debug_macro   0x00000000       0x22 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .debug_macro   0x00000000      0x7d5 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .debug_macro   0x00000000      0x314 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .debug_macro   0x00000000       0x6a ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .debug_macro   0x00000000       0x3a ./PERIPHERAL/Sources/gw1ns4c_rtc.o
@@ -462,6 +471,12 @@ Discarded input sections
  .debug_macro   0x00000000       0x58 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .debug_macro   0x00000000       0x34 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .debug_macro   0x00000000       0x1c ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .debug_line    0x00000000      0x501 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .debug_str     0x00000000     0x892b ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .comment       0x00000000       0x77 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .debug_frame   0x00000000      0x1bc ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .ARM.attributes
+                0x00000000       0x2d ./PERIPHERAL/Sources/gw1ns4c_rtc.o
  .group         0x00000000        0xc ./PERIPHERAL/Sources/gw1ns4c_spi.o
  .group         0x00000000        0xc ./PERIPHERAL/Sources/gw1ns4c_spi.o
  .group         0x00000000        0xc ./PERIPHERAL/Sources/gw1ns4c_spi.o
@@ -964,12 +979,6 @@ Discarded input sections
  .debug_frame   0x00000000      0x320 ./CORE/core_cm3.o
  .ARM.attributes
                 0x00000000       0x2d ./CORE/core_cm3.o
- .data          0x00000000        0x0 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
- .bss           0x00000000        0x0 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
- .data          0x00000000        0x0 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
- .bss           0x00000000        0x0 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
- .data          0x00000000        0x0 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
- .bss           0x00000000        0x0 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
  .text          0x00000000        0x0 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-exit.o)
  .data          0x00000000        0x0 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-exit.o)
  .bss           0x00000000        0x0 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-exit.o)
@@ -1099,7 +1108,7 @@ LOAD c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../
 LOAD c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a
 END GROUP
 
-.text           0x00000000     0x1188
+.text           0x00000000      0x81c
  *(.isr_vector)
  .isr_vector    0x00000000       0xc0 ./STARTUP/startup_gw1ns4c.o
                 0x00000000                __isr_vector
@@ -1215,94 +1224,56 @@ END GROUP
  .text.PORT0_15_Handler
                 0x00000258        0xc ./USER/gw1ns4c_it.o
                 0x00000258                PORT0_15_Handler
- *fill*         0x00000264        0x4 
- .text.main     0x00000268      0x14c ./USER/main.o
-                0x00000268                main
- .text.init     0x000003b4       0x64 ./USER/main.o
-                0x000003b4                init
+ .text.main     0x00000264       0xb4 ./USER/main.o
+                0x00000264                main
+ .text.init     0x00000318       0x3c ./USER/main.o
+                0x00000318                init
  .text.code_pin
-                0x00000418       0x48 ./USER/main.o
-                0x00000418                code_pin
- .text.convert  0x00000460       0x70 ./USER/main.o
-                0x00000460                convert
- .text.Delay    0x000004d0       0x20 ./USER/main.o
-                0x000004d0                Delay
+                0x00000354       0x48 ./USER/main.o
+                0x00000354                code_pin
+ .text.convert  0x0000039c       0x70 ./USER/main.o
+                0x0000039c                convert
+ .text.Delay    0x0000040c       0x20 ./USER/main.o
+                0x0000040c                Delay
  .text.SystemInit
-                0x000004f0       0x40 ./SYSTEM/system_gw1ns4c.o
-                0x000004f0                SystemInit
- .text          0x00000530       0x98 ./STARTUP/startup_gw1ns4c.o
-                0x00000530                Reset_Handler
-                0x00000596                PORT0_COMB_Handler
-                0x000005a0                UARTOVF_Handler
-                0x000005a6                Spare15_Handler
+                0x0000042c       0x40 ./SYSTEM/system_gw1ns4c.o
+                0x0000042c                SystemInit
+ .text          0x0000046c       0x98 ./STARTUP/startup_gw1ns4c.o
+                0x0000046c                Reset_Handler
+                0x000004d2                PORT0_COMB_Handler
+                0x000004dc                UARTOVF_Handler
+                0x000004e2                Spare15_Handler
  .text.GPIO_Init
-                0x000005c8      0x18e ./PERIPHERAL/Sources/gw1ns4c_gpio.o
-                0x000005c8                GPIO_Init
- *fill*         0x00000756        0x2 
- .text.NVIC_Init
-                0x00000758       0xc4 ./PERIPHERAL/Sources/gw1ns4c_misc.o
-                0x00000758                NVIC_Init
- .text.Get_Current_Value
-                0x0000081c       0x14 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
-                0x0000081c                Get_Current_Value
- .text.Set_Match_Value
-                0x00000830       0x1c ./PERIPHERAL/Sources/gw1ns4c_rtc.o
-                0x00000830                Set_Match_Value
- .text.Set_Load_Value
-                0x0000084c       0x1c ./PERIPHERAL/Sources/gw1ns4c_rtc.o
-                0x0000084c                Set_Load_Value
- .text.Start_RTC
-                0x00000868       0x18 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
-                0x00000868                Start_RTC
- .text.RTC_Inter_Mask_Set
-                0x00000880       0x18 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
-                0x00000880                RTC_Inter_Mask_Set
- .text.RTC_init
-                0x00000898       0x1c ./PERIPHERAL/Sources/gw1ns4c_rtc.o
-                0x00000898                RTC_init
- .text          0x000008b4      0x378 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
-                0x000008b4                __aeabi_drsub
-                0x000008bc                __aeabi_dsub
-                0x000008bc                __subdf3
-                0x000008c0                __aeabi_dadd
-                0x000008c0                __adddf3
-                0x00000b38                __floatunsidf
-                0x00000b38                __aeabi_ui2d
-                0x00000b58                __floatsidf
-                0x00000b58                __aeabi_i2d
-                0x00000b7c                __aeabi_f2d
-                0x00000b7c                __extendsfdf2
-                0x00000bc0                __floatundidf
-                0x00000bc0                __aeabi_ul2d
-                0x00000bd0                __floatdidf
-                0x00000bd0                __aeabi_l2d
- .text          0x00000c2c      0x424 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
-                0x00000c2c                __aeabi_dmul
-                0x00000c2c                __muldf3
-                0x00000e80                __divdf3
-                0x00000e80                __aeabi_ddiv
- .text          0x00001050       0x50 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
-                0x00001050                __aeabi_d2iz
-                0x00001050                __fixdfsi
- .text.exit     0x000010a0       0x20 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-exit.o)
-                0x000010a0                exit
+                0x00000504      0x18e ./PERIPHERAL/Sources/gw1ns4c_gpio.o
+                0x00000504                GPIO_Init
+ .text.I2C_Enable
+                0x00000692       0x1e ./PERIPHERAL/Sources/gw1ns4c_i2c.o
+                0x00000692                I2C_Enable
+ .text.I2C_Rate_Set
+                0x000006b0       0x40 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
+                0x000006b0                I2C_Rate_Set
+ .text.I2C_Init
+                0x000006f0       0x44 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
+                0x000006f0                I2C_Init
+ .text.exit     0x00000734       0x20 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-exit.o)
+                0x00000734                exit
  .text.__call_exitprocs
-                0x000010c0       0xb0 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
-                0x000010c0                __call_exitprocs
+                0x00000754       0xb0 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x00000754                __call_exitprocs
  .text.__retarget_lock_acquire_recursive
-                0x00001170        0x4 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
-                0x00001170                __retarget_lock_acquire_recursive
+                0x00000804        0x4 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x00000804                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x00001174        0x4 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
-                0x00001174                __retarget_lock_release_recursive
- .text._exit    0x00001178        0x4 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)
-                0x00001178                _exit
+                0x00000808        0x4 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x00000808                __retarget_lock_release_recursive
+ .text._exit    0x0000080c        0x4 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)
+                0x0000080c                _exit
  *(.init)
- .init          0x0000117c        0x4 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crti.o
-                0x0000117c                _init
+ .init          0x00000810        0x4 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crti.o
+                0x00000810                _init
  *(.fini)
- .fini          0x00001180        0x4 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crti.o
-                0x00001180                _fini
+ .fini          0x00000814        0x4 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp/crti.o
+                0x00000814                _fini
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1315,38 +1286,38 @@ END GROUP
  *(.dtors)
  *(.rodata*)
  .rodata._global_impure_ptr
-                0x00001184        0x4 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
-                0x00001184                _global_impure_ptr
+                0x00000818        0x4 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
+                0x00000818                _global_impure_ptr
  *(.eh_frame*)
 
-.glue_7         0x00001188        0x0
- .glue_7        0x00001188        0x0 linker stubs
+.glue_7         0x0000081c        0x0
+ .glue_7        0x0000081c        0x0 linker stubs
 
-.glue_7t        0x00001188        0x0
- .glue_7t       0x00001188        0x0 linker stubs
+.glue_7t        0x0000081c        0x0
+ .glue_7t       0x0000081c        0x0 linker stubs
 
-.vfp11_veneer   0x00001188        0x0
- .vfp11_veneer  0x00001188        0x0 linker stubs
+.vfp11_veneer   0x0000081c        0x0
+ .vfp11_veneer  0x0000081c        0x0 linker stubs
 
-.v4_bx          0x00001188        0x0
- .v4_bx         0x00001188        0x0 linker stubs
+.v4_bx          0x0000081c        0x0
+ .v4_bx         0x0000081c        0x0 linker stubs
 
-.iplt           0x00001188        0x0
- .iplt          0x00001188        0x0 ./USER/gw1ns4c_it.o
+.iplt           0x0000081c        0x0
+ .iplt          0x0000081c        0x0 ./USER/gw1ns4c_it.o
 
-.rel.dyn        0x00001188        0x0
- .rel.iplt      0x00001188        0x0 ./USER/gw1ns4c_it.o
+.rel.dyn        0x0000081c        0x0
+ .rel.iplt      0x0000081c        0x0 ./USER/gw1ns4c_it.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00001188                __exidx_start = .
+                0x0000081c                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00001188                __exidx_end = .
-                0x00001188                __etext = .
+                0x0000081c                __exidx_end = .
+                0x0000081c                __etext = .
 
-.data           0x20000000      0x43c load address 0x00001188
+.data           0x20000000      0x43c load address 0x0000081c
                 0x20000000                __data_start__ = .
  *(vtable)
  *(.data*)
@@ -1381,10 +1352,10 @@ END GROUP
                 0x2000043c                . = ALIGN (0x4)
                 0x2000043c                __data_end__ = .
 
-.igot.plt       0x2000043c        0x0 load address 0x000015c4
+.igot.plt       0x2000043c        0x0 load address 0x00000c58
  .igot.plt      0x2000043c        0x0 ./USER/gw1ns4c_it.o
 
-.bss            0x2000043c       0x24 load address 0x000015c4
+.bss            0x2000043c       0x24 load address 0x00000c58
                 0x2000043c                . = ALIGN (0x4)
                 0x2000043c                __bss_start__ = .
  *(.bss*)
@@ -1435,25 +1406,17 @@ OUTPUT(7segments_counter.elf elf32-littlearm)
  .ARM.attributes
                 0x000000bf       0x2d ./PERIPHERAL/Sources/gw1ns4c_gpio.o
  .ARM.attributes
-                0x000000ec       0x2d ./PERIPHERAL/Sources/gw1ns4c_misc.o
+                0x000000ec       0x2d ./PERIPHERAL/Sources/gw1ns4c_i2c.o
  .ARM.attributes
-                0x00000119       0x2d ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+                0x00000119       0x2d c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-exit.o)
  .ARM.attributes
-                0x00000146       0x1d c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+                0x00000146       0x2d c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000163       0x1d c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
+                0x00000173       0x2d c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
  .ARM.attributes
-                0x00000180       0x1d c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
+                0x000001a0       0x2d c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
  .ARM.attributes
-                0x0000019d       0x2d c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-exit.o)
- .ARM.attributes
-                0x000001ca       0x2d c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
- .ARM.attributes
-                0x000001f7       0x2d c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
- .ARM.attributes
-                0x00000224       0x2d c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
- .ARM.attributes
-                0x00000251       0x2d c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)
+                0x000001cd       0x2d c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)
 
 .comment        0x00000000       0x76
  .comment       0x00000000       0x76 ./USER/gw1ns4c_it.o
@@ -1461,28 +1424,25 @@ OUTPUT(7segments_counter.elf elf32-littlearm)
  .comment       0x00000076       0x77 ./USER/main.o
  .comment       0x00000076       0x77 ./SYSTEM/system_gw1ns4c.o
  .comment       0x00000076       0x77 ./PERIPHERAL/Sources/gw1ns4c_gpio.o
- .comment       0x00000076       0x77 ./PERIPHERAL/Sources/gw1ns4c_misc.o
- .comment       0x00000076       0x77 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .comment       0x00000076       0x77 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
 
-.debug_info     0x00000000     0x21be
+.debug_info     0x00000000     0x1e8d
  .debug_info    0x00000000      0x374 ./USER/gw1ns4c_it.o
- .debug_info    0x00000374      0xe1a ./USER/main.o
- .debug_info    0x0000118e      0x126 ./SYSTEM/system_gw1ns4c.o
- .debug_info    0x000012b4       0x26 ./STARTUP/startup_gw1ns4c.o
- .debug_info    0x000012da      0x72f ./PERIPHERAL/Sources/gw1ns4c_gpio.o
- .debug_info    0x00001a09      0x51b ./PERIPHERAL/Sources/gw1ns4c_misc.o
- .debug_info    0x00001f24      0x29a ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .debug_info    0x00000374      0xd14 ./USER/main.o
+ .debug_info    0x00001088      0x126 ./SYSTEM/system_gw1ns4c.o
+ .debug_info    0x000011ae       0x26 ./STARTUP/startup_gw1ns4c.o
+ .debug_info    0x000011d4      0x72f ./PERIPHERAL/Sources/gw1ns4c_gpio.o
+ .debug_info    0x00001903      0x58a ./PERIPHERAL/Sources/gw1ns4c_i2c.o
 
-.debug_abbrev   0x00000000      0x895
+.debug_abbrev   0x00000000      0x80e
  .debug_abbrev  0x00000000       0x9d ./USER/gw1ns4c_it.o
- .debug_abbrev  0x0000009d      0x2c6 ./USER/main.o
- .debug_abbrev  0x00000363       0x92 ./SYSTEM/system_gw1ns4c.o
- .debug_abbrev  0x000003f5       0x14 ./STARTUP/startup_gw1ns4c.o
- .debug_abbrev  0x00000409      0x1c6 ./PERIPHERAL/Sources/gw1ns4c_gpio.o
- .debug_abbrev  0x000005cf      0x1aa ./PERIPHERAL/Sources/gw1ns4c_misc.o
- .debug_abbrev  0x00000779      0x11c ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .debug_abbrev  0x0000009d      0x2bd ./USER/main.o
+ .debug_abbrev  0x0000035a       0x92 ./SYSTEM/system_gw1ns4c.o
+ .debug_abbrev  0x000003ec       0x14 ./STARTUP/startup_gw1ns4c.o
+ .debug_abbrev  0x00000400      0x1c6 ./PERIPHERAL/Sources/gw1ns4c_gpio.o
+ .debug_abbrev  0x000005c6      0x248 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
 
-.debug_aranges  0x00000000      0x338
+.debug_aranges  0x00000000      0x300
  .debug_aranges
                 0x00000000      0x140 ./USER/gw1ns4c_it.o
  .debug_aranges
@@ -1494,19 +1454,16 @@ OUTPUT(7segments_counter.elf elf32-littlearm)
  .debug_aranges
                 0x000001c8       0xb8 ./PERIPHERAL/Sources/gw1ns4c_gpio.o
  .debug_aranges
-                0x00000280       0x38 ./PERIPHERAL/Sources/gw1ns4c_misc.o
- .debug_aranges
-                0x000002b8       0x80 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+                0x00000280       0x80 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
 
-.debug_ranges   0x00000000      0x2b8
+.debug_ranges   0x00000000      0x290
  .debug_ranges  0x00000000      0x130 ./USER/gw1ns4c_it.o
  .debug_ranges  0x00000130       0x30 ./USER/main.o
  .debug_ranges  0x00000160       0x18 ./SYSTEM/system_gw1ns4c.o
  .debug_ranges  0x00000178       0xa8 ./PERIPHERAL/Sources/gw1ns4c_gpio.o
- .debug_ranges  0x00000220       0x28 ./PERIPHERAL/Sources/gw1ns4c_misc.o
- .debug_ranges  0x00000248       0x70 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .debug_ranges  0x00000220       0x70 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
 
-.debug_macro    0x00000000     0x38b4
+.debug_macro    0x00000000     0x3008
  .debug_macro   0x00000000      0x100 ./USER/gw1ns4c_it.o
  .debug_macro   0x00000100      0xa78 ./USER/gw1ns4c_it.o
  .debug_macro   0x00000b78       0x22 ./USER/gw1ns4c_it.o
@@ -1562,47 +1519,38 @@ OUTPUT(7segments_counter.elf elf32-littlearm)
  .debug_macro   0x00002c80      0x102 ./SYSTEM/system_gw1ns4c.o
  .debug_macro   0x00002d82      0x100 ./PERIPHERAL/Sources/gw1ns4c_gpio.o
  .debug_macro   0x00002e82       0x34 ./PERIPHERAL/Sources/gw1ns4c_gpio.o
- .debug_macro   0x00002eb6      0x106 ./PERIPHERAL/Sources/gw1ns4c_misc.o
- .debug_macro   0x00002fbc       0x2e ./PERIPHERAL/Sources/gw1ns4c_misc.o
- .debug_macro   0x00002fea       0xf5 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
- .debug_macro   0x000030df      0x7d5 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .debug_macro   0x00002eb6      0x100 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
+ .debug_macro   0x00002fb6       0x52 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
 
-.debug_line     0x00000000     0x21d0
+.debug_line     0x00000000     0x20f7
  .debug_line    0x00000000      0x691 ./USER/gw1ns4c_it.o
- .debug_line    0x00000691      0x6b3 ./USER/main.o
- .debug_line    0x00000d44      0x3fd ./SYSTEM/system_gw1ns4c.o
- .debug_line    0x00001141       0x98 ./STARTUP/startup_gw1ns4c.o
- .debug_line    0x000011d9      0x664 ./PERIPHERAL/Sources/gw1ns4c_gpio.o
- .debug_line    0x0000183d      0x492 ./PERIPHERAL/Sources/gw1ns4c_misc.o
- .debug_line    0x00001ccf      0x501 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
+ .debug_line    0x00000691      0x669 ./USER/main.o
+ .debug_line    0x00000cfa      0x3fd ./SYSTEM/system_gw1ns4c.o
+ .debug_line    0x000010f7       0x98 ./STARTUP/startup_gw1ns4c.o
+ .debug_line    0x0000118f      0x664 ./PERIPHERAL/Sources/gw1ns4c_gpio.o
+ .debug_line    0x000017f3      0x904 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
 
-.debug_str      0x00000000     0xd43c
+.debug_str      0x00000000     0xd00b
  .debug_str     0x00000000     0x88a3 ./USER/gw1ns4c_it.o
                                0x8a0c (size before relaxing)
- .debug_str     0x000088a3     0x4625 ./USER/main.o
-                               0xceac (size before relaxing)
- .debug_str     0x0000cec8       0x6d ./SYSTEM/system_gw1ns4c.o
+ .debug_str     0x000088a3     0x43b9 ./USER/main.o
+                               0xcbe8 (size before relaxing)
+ .debug_str     0x0000cc5c       0x6d ./SYSTEM/system_gw1ns4c.o
                                0x8800 (size before relaxing)
- .debug_str     0x0000cf35       0x2b ./STARTUP/startup_gw1ns4c.o
+ .debug_str     0x0000ccc9       0x2b ./STARTUP/startup_gw1ns4c.o
                                  0x77 (size before relaxing)
- .debug_str     0x0000cf60      0x192 ./PERIPHERAL/Sources/gw1ns4c_gpio.o
+ .debug_str     0x0000ccf4      0x192 ./PERIPHERAL/Sources/gw1ns4c_gpio.o
                                0x8ac2 (size before relaxing)
- .debug_str     0x0000d0f2      0x1c4 ./PERIPHERAL/Sources/gw1ns4c_misc.o
-                               0x8a03 (size before relaxing)
- .debug_str     0x0000d2b6      0x186 ./PERIPHERAL/Sources/gw1ns4c_rtc.o
-                               0x892b (size before relaxing)
+ .debug_str     0x0000ce86      0x185 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
+                               0x8947 (size before relaxing)
 
-.debug_frame    0x00000000      0xdbc
+.debug_frame    0x00000000      0xc34
  .debug_frame   0x00000000      0x490 ./USER/gw1ns4c_it.o
  .debug_frame   0x00000490       0xcc ./USER/main.o
  .debug_frame   0x0000055c       0x50 ./SYSTEM/system_gw1ns4c.o
  .debug_frame   0x000005ac      0x330 ./PERIPHERAL/Sources/gw1ns4c_gpio.o
- .debug_frame   0x000008dc       0xb0 ./PERIPHERAL/Sources/gw1ns4c_misc.o
- .debug_frame   0x0000098c      0x1bc ./PERIPHERAL/Sources/gw1ns4c_rtc.o
- .debug_frame   0x00000b48       0xac c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x00000bf4       0x50 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x00000c44       0x24 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
- .debug_frame   0x00000c68       0x28 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-exit.o)
- .debug_frame   0x00000c90       0x5c c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x00000cec       0xb0 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
- .debug_frame   0x00000d9c       0x20 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)
+ .debug_frame   0x000008dc      0x204 ./PERIPHERAL/Sources/gw1ns4c_i2c.o
+ .debug_frame   0x00000ae0       0x28 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-exit.o)
+ .debug_frame   0x00000b08       0x5c c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000b64       0xb0 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+ .debug_frame   0x00000c14       0x20 c:/gmd/toolchain/arm_toolchain/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)

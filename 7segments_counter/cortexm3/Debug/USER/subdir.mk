@@ -20,7 +20,7 @@ C_DEPS += \
 USER/%.o: ../USER/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: GNU ARM Cross C Compiler'
-	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:\Users\Mylan\Documents\TER\Gowin-Ministar\7segment_counter\cortexm3\CORE" -I"C:\Users\Mylan\Documents\TER\Gowin-Ministar\7segment_counter\cortexm3\PERIPHERAL\Includes" -I"C:\Users\Mylan\Documents\TER\Gowin-Ministar\7segment_counter\cortexm3\SYSTEM" -I"C:\Users\Mylan\Documents\TER\Gowin-Ministar\7segment_counter\cortexm3\USER" -std=gnu11 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:\Users\Mylan\Documents\TER\Gowin-Ministar\7segments_counter\cortexm3\CORE" -I"C:\Users\Mylan\Documents\TER\Gowin-Ministar\7segments_counter\cortexm3\PERIPHERAL\Includes" -I"C:\Users\Mylan\Documents\TER\Gowin-Ministar\7segments_counter\cortexm3\SYSTEM" -I"C:\Users\Mylan\Documents\TER\Gowin-Ministar\7segments_counter\cortexm3\USER" -std=gnu11 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

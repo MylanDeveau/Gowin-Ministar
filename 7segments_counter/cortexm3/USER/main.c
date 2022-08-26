@@ -2,7 +2,7 @@
  * *****************************************************************************************
  *
  * 		Copyright (C) 2014-2020 Gowin Semiconductor Technology Co.,Ltd.
- * 		
+ *
  * @file		main.c
  * @author		Embedded Development Team
  * @version		V1.0.0
@@ -68,24 +68,6 @@ void init() {
 	GPIO_Init(GPIO0, &GPIO_InitType);
 
 	RTC_init();
-
-	NVIC_InitTypeDef nvic_struct;
-
-	nvic_struct.NVIC_IRQChannel = USER_INT0_IRQn;
-	nvic_struct.NVIC_IRQChannelCmd = ENABLE;
-	nvic_struct.NVIC_IRQChannelPreemptionPriority = 0;
-	nvic_struct.NVIC_IRQChannelSubPriority = 0;
-
-	NVIC_Init(&nvic_struct);
-
-	nvic_struct.NVIC_IRQChannel = USER_INT1_IRQn;
-
-	NVIC_Init(&nvic_struct);
-
-	nvic_struct.NVIC_IRQChannel = USER_INT2_IRQn;
-
-	NVIC_Init(&nvic_struct);
-
 }
 
 int code_pin(int pin_num) {

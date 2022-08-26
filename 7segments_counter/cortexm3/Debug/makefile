@@ -45,7 +45,7 @@ all: 7segments_counter.elf secondary-outputs
 7segments_counter.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GNU ARM Cross C Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:\Users\Mylan\Documents\TER\Gowin-Ministar\7segment_counter\cortexm3\gw1ns4c_flash.ld" -Xlinker --gc-sections -Wl,-Map,"7segments_counter.map" -o "7segments_counter.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:\Users\Mylan\Documents\TER\Gowin-Ministar\7segments_counter\cortexm3\gw1ns4c_flash.ld" -Xlinker --gc-sections -Wl,-Map,"7segments_counter.map" -o "7segments_counter.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

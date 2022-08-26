@@ -4,7 +4,7 @@
 //GOWIN Version: 1.9.8.05
 //Part Number: GW1NS-LV4CQN48C7/I6
 //Device: GW1NS-4C
-//Created Time: Wed 06 22 16:57:38 2022
+//Created Time: Mon 08 22 16:32:17 2022
 
 IO_LOC "gpio_io[11]" 39;
 IO_PORT "gpio_io[11]" PULL_MODE=UP DRIVE=8;
@@ -30,9 +30,3 @@ IO_LOC "gpio_io[1]" 41;
 IO_PORT "gpio_io[1]" PULL_MODE=UP DRIVE=8;
 IO_LOC "gpio_io[0]" 40;
 IO_PORT "gpio_io[0]" PULL_MODE=UP DRIVE=8;
-IO_LOC "usr_int_2" 32;
-IO_PORT "usr_int_2" PULL_MODE=UP;
-IO_LOC "usr_int_1" 34;
-IO_PORT "usr_int_1" PULL_MODE=UP;
-IO_LOC "usr_int_0" 31;
-IO_PORT "usr_int_0" PULL_MODE=UP;

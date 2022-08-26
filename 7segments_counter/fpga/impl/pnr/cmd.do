@@ -1,8 +1,8 @@
--d C:\Users\Mylan\Documents\TER\Gowin-Ministar\7segment_counter\fpga\impl\gwsynthesis\7segments.vg
+-d C:\Users\Mylan\Documents\TER\Gowin-Ministar\7segments_counter\fpga\impl\gwsynthesis\7segments.vg
 -p GW1NS-4C-QFN48-7
 -pn GW1NS-LV4CQN48C7/I6
--cst C:\Users\Mylan\Documents\TER\Gowin-Ministar\7segment_counter\fpga\src\7segments.cst
--cfg C:\Users\Mylan\Documents\TER\Gowin-Ministar\7segment_counter\fpga\impl\pnr\device.cfg
+-cst C:\Users\Mylan\Documents\TER\Gowin-Ministar\7segments_counter\fpga\src\7segments.cst
+-cfg C:\Users\Mylan\Documents\TER\Gowin-Ministar\7segments_counter\fpga\impl\pnr\device.cfg
 -bit
 -tr
 -ph

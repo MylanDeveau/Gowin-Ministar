@@ -2,19 +2,13 @@
 //All rights reserved.
 //File Title: Post-PnR Simulation Model file
 //GOWIN Version: V1.9.8.05
-//Created Time: Wed Jun 22 16:57:54 2022
+//Created Time: Mon Aug 22 16:32:26 2022
 
 `timescale 100 ps/100 ps
 module top(
-	usr_int_0,
-	usr_int_1,
-	usr_int_2,
 	reset,
 	gpio_io
 );
-input usr_int_0;
-input usr_int_1;
-input usr_int_2;
 input reset;
 inout [15:0] gpio_io;
 wire GND;
@@ -37,25 +31,13 @@ wire \gowin_add_lut4_F_sram0_wren[3]_9 ;
 wire \gowin_add_lut4_F_sram0_wren[3]_10 ;
 wire \gowin_add_lut4_F_sram0_wren[3]_11 ;
 wire [15:0] gpio_io;
-wire int0;
-wire int1;
-wire int2;
 wire reset;
 wire reset_d;
 wire rtc_clock;
-wire usr_int_0;
-wire usr_int_0_d;
-wire usr_int_1;
-wire usr_int_1_d;
-wire usr_int_2;
-wire usr_int_2_d;
 wire \pll/clkout ;
 wire \pll/clkoutp_o ;
 wire \pll/clkoutd3_o ;
 wire \pll/lock_o ;
-wire \inter_0/tmp ;
-wire \inter_1/tmp ;
-wire \inter_2/tmp ;
 wire \bridge/Gowin_EMPU_inst/uart0_txd ;
 wire \bridge/Gowin_EMPU_inst/uart1_txd ;
 wire \bridge/Gowin_EMPU_inst/u_emcu_top_0_UART0BAUDTICK ;
@@ -327,18 +309,6 @@ GND GND_cZ (
 GSR \bridge/Gowin_EMPU_inst/sys_reset  (
 	.GSRI(reset_d)
 );
-IBUF usr_int_0_ibuf (
-	.I(usr_int_0),
-	.O(usr_int_0_d)
-);
-IBUF usr_int_1_ibuf (
-	.I(usr_int_1),
-	.O(usr_int_1_d)
-);
-IBUF usr_int_2_ibuf (
-	.I(usr_int_2),
-	.O(usr_int_2_d)
-);
 IBUF reset_ibuf (
 	.I(reset),
 	.O(reset_d)
@@ -484,45 +454,6 @@ defparam \pll/pllvr_inst .CLKOUTP_DLY_STEP=0;
 defparam \pll/pllvr_inst .FCLKIN="62.5";
 defparam \pll/pllvr_inst .ODIV_SEL=2;
 defparam \pll/pllvr_inst .DEVICE="GW1NS-4C";
-DFFR \inter_0/usr_out_s0  (
-	.D(usr_int_0_d),
-	.CLK(clock),
-	.RESET(\inter_0/tmp ),
-	.Q(int0)
-);
-defparam \inter_0/usr_out_s0 .INIT=1'b0;
-DFF \inter_0/tmp_s1  (
-	.D(usr_int_0_d),
-	.CLK(clock),
-	.Q(\inter_0/tmp )
-);
-defparam \inter_0/tmp_s1 .INIT=1'b0;
-DFFR \inter_1/usr_out_s0  (
-	.D(usr_int_1_d),
-	.CLK(clock),
-	.RESET(\inter_1/tmp ),
-	.Q(int1)
-);
-defparam \inter_1/usr_out_s0 .INIT=1'b0;
-DFF \inter_1/tmp_s1  (
-	.D(usr_int_1_d),
-	.CLK(clock),
-	.Q(\inter_1/tmp )
-);
-defparam \inter_1/tmp_s1 .INIT=1'b0;
-DFFR \inter_2/usr_out_s0  (
-	.D(usr_int_2_d),
-	.CLK(clock),
-	.RESET(\inter_2/tmp ),
-	.Q(int2)
-);
-defparam \inter_2/usr_out_s0 .INIT=1'b0;
-DFF \inter_2/tmp_s1  (
-	.D(usr_int_2_d),
-	.CLK(clock),
-	.Q(\inter_2/tmp )
-);
-defparam \inter_2/tmp_s1 .INIT=1'b0;
 EMCU \bridge/Gowin_EMPU_inst/u_emcu_top  (
 	.FCLK(clock),
 	.PORESETN(reset_d),
@@ -566,7 +497,7 @@ EMCU \bridge/Gowin_EMPU_inst/u_emcu_top  (
 	.INITEXP0HWUSER({GND, GND, GND, GND}),
 	.APBTARGEXP2PRDATA({GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, \bridge/Gowin_EMPU_inst/apbtargexp2_prdata [12], GND, \bridge/Gowin_EMPU_inst/apbtargexp2_prdata [10:0]}),
 	.MTXREMAP({VCC, VCC, VCC, VCC}),
-	.GPINT({GND, GND, int2, int1, int0}),
+	.GPINT({GND, GND, GND, GND, GND}),
 	.UART0TXDO(\bridge/Gowin_EMPU_inst/uart0_txd ),
 	.UART1TXDO(\bridge/Gowin_EMPU_inst/uart1_txd ),
 	.UART0BAUDTICK(\bridge/Gowin_EMPU_inst/u_emcu_top_0_UART0BAUDTICK ),

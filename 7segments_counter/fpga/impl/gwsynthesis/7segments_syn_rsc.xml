@@ -2,8 +2,5 @@
 <Module name="top">
     <SubModule name="clokc_gen"/>
     <SubModule name="pll"/>
-    <SubModule name="inter_0" Register="2"/>
-    <SubModule name="inter_1" Register="2"/>
-    <SubModule name="inter_2" Register="2"/>
     <SubModule name="bridge" Register="127" Lut="162" Bsram="8"/>
 </Module>

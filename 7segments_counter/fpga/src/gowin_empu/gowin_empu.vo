@@ -2,23 +2,17 @@
 //All rights reserved.
 //File Title: Post-PnR Simulation Model file
 //GOWIN Version: V1.9.8.05
-//Created Time: Tue Jun 14 13:53:03 2022
+//Created Time: Mon Aug 22 16:31:09 2022
 
 `timescale 100 ps/100 ps
 module Gowin_EMPU_Top(
 	sys_clk,
 	rtc_src_clk,
-	user_int_0,
-	user_int_1,
-	user_int_2,
 	reset_n,
 	gpio
 );
 input sys_clk;
 input rtc_src_clk;
-input user_int_0;
-input user_int_1;
-input user_int_2;
 input reset_n;
 inout [15:0] gpio;
 wire GND;
@@ -27,9 +21,6 @@ wire [15:0] gpio;
 wire reset_n;
 wire rtc_src_clk;
 wire sys_clk;
-wire user_int_0;
-wire user_int_1;
-wire user_int_2;
 wire \Gowin_EMPU_inst/uart0_txd ;
 wire \Gowin_EMPU_inst/uart1_txd ;
 wire \Gowin_EMPU_inst/u_emcu_top_0_UART0BAUDTICK ;
@@ -438,7 +429,7 @@ EMCU \Gowin_EMPU_inst/u_emcu_top  (
 	.INITEXP0HWUSER({GND, GND, GND, GND}),
 	.APBTARGEXP2PRDATA({GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, \Gowin_EMPU_inst/apbtargexp2_prdata [12], GND, \Gowin_EMPU_inst/apbtargexp2_prdata [10:0]}),
 	.MTXREMAP({VCC, VCC, VCC, VCC}),
-	.GPINT({GND, GND, user_int_2, user_int_1, user_int_0}),
+	.GPINT({GND, GND, GND, GND, GND}),
 	.UART0TXDO(\Gowin_EMPU_inst/uart0_txd ),
 	.UART1TXDO(\Gowin_EMPU_inst/uart1_txd ),
 	.UART0BAUDTICK(\Gowin_EMPU_inst/u_emcu_top_0_UART0BAUDTICK ),
