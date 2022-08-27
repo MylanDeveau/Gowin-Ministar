@@ -1,0 +1,36 @@
+//Copyright (C)2014-2022 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.8.05
+//Part Number: GW1NS-LV4CQN48C7/I6
+//Device: GW1NS-4C
+//Created Time: Tue 07 26 15:19:00 2022
+
+IO_LOC "sda" 9;
+IO_PORT "sda" PULL_MODE=UP DRIVE=8;
+IO_LOC "scl" 8;
+IO_PORT "scl" PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[11]" 39;
+IO_PORT "gpio_io[11]" PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[10]" 30;
+IO_PORT "gpio_io[10]" PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[9]" 29;
+IO_PORT "gpio_io[9]" PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[8]" 28;
+IO_PORT "gpio_io[8]" PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[7]" 27;
+IO_PORT "gpio_io[7]" PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[6]" 46;
+IO_PORT "gpio_io[6]" PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[5]" 45;
+IO_PORT "gpio_io[5]" PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[4]" 44;
+IO_PORT "gpio_io[4]" PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[3]" 43;
+IO_PORT "gpio_io[3]" PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[2]" 42;
+IO_PORT "gpio_io[2]" PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[1]" 41;
+IO_PORT "gpio_io[1]" PULL_MODE=UP DRIVE=8;
+IO_LOC "gpio_io[0]" 40;
+IO_PORT "gpio_io[0]" PULL_MODE=UP DRIVE=8;

@@ -1,0 +1,73 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\1tick.vhd'
+Analyzing entity 'tick'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\1tick.vhd":4)
+Analyzing architecture 'bhv'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\1tick.vhd":11)
+Analyzing VHDL file 'C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd'
+Analyzing entity '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing architecture '**'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Analyzing entity 'gowin_empu_top'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":2887)
+Analyzing architecture 'beh'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":2895)
+Analyzing VHDL file 'C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_osc\gowin_osc.vhd'
+Analyzing entity 'gowin_osc'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_osc\gowin_osc.vhd":12)
+Analyzing architecture 'behavioral'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_osc\gowin_osc.vhd":19)
+Analyzing VHDL file 'C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_pllvr\gowin_pllvr.vhd'
+Analyzing entity 'gowin_pllvr'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_pllvr\gowin_pllvr.vhd":12)
+Analyzing architecture 'behavioral'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_pllvr\gowin_pllvr.vhd":20)
+Analyzing VHDL file 'C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\top.vhd'
+Analyzing entity 'top'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\top.vhd":5)
+Analyzing architecture 'bhv'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\top.vhd":13)
+Processing 'top(bhv)'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\top.vhd":5)
+Processing 'Gowin_OSC(Behavioral)'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_osc\gowin_osc.vhd":12)
+Processing 'Gowin_EMPU_Top(beh)'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":2887)
+Processing '**(**)'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Processing '**(**)'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Processing '**(**)'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Processing '**(**)'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Processing '**(**)'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Processing '**(**)'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Processing '**(**)'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Processing '**(**)'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Processing '**(**)'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Processing '**(**)'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+Processing '**(**)'("C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\src\gowin_empu\gowin_empu.vhd":0)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\impl\gwsynthesis\7segments.vg" completed
+[100%] Generate report file "C:\Users\Sylvain\Documents\Gowin-Ministar-main\Gowin-Ministar-main\7segments_counter\fpga\impl\gwsynthesis\7segments_syn.rpt.html" completed
+GowinSynthesis finish

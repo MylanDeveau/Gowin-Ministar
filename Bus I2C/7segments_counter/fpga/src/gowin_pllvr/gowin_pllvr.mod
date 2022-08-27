@@ -1,0 +1,35 @@
+-series GW1NS
+-device GW1NS-4C
+-package QFN48
+-part_number GW1NS-LV4CQN48C7/I6
+
+
+-mod_name Gowin_PLLVR
+-file_name gowin_pllvr
+-path C:/Users/Mylan/Documents/TER/Gowin-Ministar/7segment_counter/fpga/src/gowin_pllvr/
+-type PLL
+-pllvr true
+-file_type vhdl
+-dev_type GW1NS-4C
+-dyn_idiv_sel false
+-idiv_sel 12
+-dyn_fbdiv_sel false
+-fbdiv_sel 59
+-dyn_odiv_sel false
+-odiv_sel 2
+-dyn_sdiv_sel 100
+-dyn_da_en true
+-rst_sig false
+-rst_sig_p false
+-pll_reg false
+-fclkin 62.5
+-clkfb_sel 0
+-en_lock false
+-clkout_bypass false
+-clkout_ft_dir 1
+-en_clkoutp false
+-clkoutp_bypass false
+-en_clkoutd true
+-clkoutd_bypass false
+-clkoutd_src CLKOUT
+-en_clkoutd3 false

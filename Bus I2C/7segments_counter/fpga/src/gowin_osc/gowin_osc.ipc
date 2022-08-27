@@ -1,0 +1,12 @@
+[General]
+ipc_version=4
+file=gowin_osc
+module=Gowin_OSC
+target_device=gw1ns4c-007
+type=clock_osc
+version=3.0
+
+[Config]
+FREQ=4
+LANG=1
+REGULATOR_ENABLE=false
